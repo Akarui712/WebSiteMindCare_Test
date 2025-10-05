@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agendar</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!--Style-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style_agendar.css') }}">
 </head>
 <body>
-    {% include 'menu.html' %}
-    <h1>Página de citas</h1>
+    {% extends 'base.html' %}
+    {% block content %}
+    <div class="content">
+        <h1>Página en construcción</h1>
+    </div>
+    {% endblock %}
 </body>
 </html>
