@@ -1,25 +1,25 @@
 .content
 {
     display: flex;
+    position: fixed;
     align-items: center;
 }
 
 .text
 {
-    margin-top: 290px;
+    margin-top: 95px;
 }
 
 img
 {
     margin: 70px;
-    margin-top: 90px;
+    margin-top: 150px;
     width: 700px;
 }
 
 h1
 {
     margin: 0;
-    margin-top: -330px;
     font-family: "Nunito", sans-serif;
     font-size: 60px;
     color: #00abb5;
